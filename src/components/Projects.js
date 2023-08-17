@@ -6,6 +6,7 @@ import { Tab } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import projImg1 from "../assets/img/news feed application.jpg";
 import projImg2 from "../assets/img/email spam detection.jpg";
+import projImg3 from "../assets/img/cricket image.jpg"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import {React} from 'react';
@@ -24,6 +25,12 @@ export const Projects = () => {
       title: "Email Spam Detection",
       description: "B.....",
       imgUrl: projImg2,
+      link: "/https://github.com/saichandratejas/Email-Spam-Detection-Using-Python",
+    },
+    {
+      title: "Cricket IPL Extension",
+      description: "B.....",
+      imgUrl: projImg3,
       link: "/https://github.com/saichandratejas/Email-Spam-Detection-Using-Python",
     },
   ];
